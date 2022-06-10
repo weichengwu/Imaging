@@ -35,8 +35,11 @@
             android:clickable="true"
             android:focusable="true"
             android:onClick="onClick"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="3dp"
             android:text="@string/image_done"
-            android:textColor="@color/image_color_accent"
+            android:textColor="@color/image_color_white"
+            android:background="#50a938"
             android:textSize="16sp" />
 
     </FrameLayout>
